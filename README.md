@@ -1,6 +1,6 @@
 # Predicting Molecular Properties
 
-Data from Kaggle competition [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling?utm_medium=email&utm_source=intercom&utm_campaign=champs-email-launch). All data can be found there. Due to git size limitation, all data were ignored from this repo.
+Data from Kaggle competition [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling?utm_medium=email&utm_source=intercom&utm_campaign=champs-email-launch). All data can be found there. Due to git size limitation, all data files were ignored from this repo. I took this project to do my own work without following the instructions of the Kaggle Competition. I just wanted to define my own models and see if I can predict based on the theory of multicolinearity. 
 
 
 Finished basic EDA and found out which features are important at the [SNS and LGB file](https://github.com/imamun93/Molecular_Properties/blob/master/SNS%20and%20LGB%20EDA.ipynb). Thorugh EDA and lgbm modelling, I leanred that fc, pso, sd and dso play a more important weighted role in predicting the Scalar Constant.
@@ -16,4 +16,7 @@ However, that gave me a great idea. I realized that since my data were all over 
 
 
 
-The [Neural Network file](https://github.com/imamun93/Molecular_Properties/blob/master/SimpleNeuralNetwork.ipynb) is currently stopped and will resume after I have established a baseline model that works accurately.
+The [Simple Neural Network file](https://github.com/imamun93/Molecular_Properties/blob/master/SimpleNeuralNetwork.ipynb) finished and after multiple run, I saw that relu is the best model to achieve convergence. This will be the final notebook for this project.
+
+
+I will do one more notebook, and that will focus on the actual Kaggle Competition. Even though the competition has long ended, there were many great entries from which I can expand my knowledge further. Once I start, it will be linked here as well.
