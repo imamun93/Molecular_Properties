@@ -19,4 +19,6 @@ However, that gave me a great idea. I realized that since my data were all over 
 The [Simple Neural Network file](https://github.com/imamun93/Molecular_Properties/blob/master/SimpleNeuralNetwork.ipynb) finished and after multiple run, I saw that relu is the best model to achieve convergence. This will be the final notebook for this project.
 
 
-I will do one more notebook, and that will focus on the actual Kaggle Competition. Even though the competition has long ended, there were many great entries from which I can expand my knowledge further. Once I start, it will be linked here as well.
+Here is the [Kaggle Notebook](https://github.com/imamun93/Molecular_Properties/blob/master/KaggleSet.ipynb) that I would have submitted if I did it on time for the competition. It contains all data, some great visuals thanks to [Andrew's Kaggle EDA](https://www.kaggle.com/artgor/molecular-properties-eda-and-models), and majority of the models that worked well for me. As of now the project is finished. I will next add a few more visuals using Tableau and the accuracy csvs that I saved from the Ridge/Lasso sections of this notebook and add it to the [Tableau Visual Notebook](https://github.com/imamun93/Molecular_Properties/blob/master/Tableau_Viz.ipynb). 
+
+Finally, I will eventually do a proper write up but that may take some time as there are a lot of different methods I have used and I have to find out what is the most efficient way to do a write up.
