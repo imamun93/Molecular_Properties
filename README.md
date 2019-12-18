@@ -2,6 +2,7 @@
 
 Data from Kaggle competition [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling?utm_medium=email&utm_source=intercom&utm_campaign=champs-email-launch). All data can be found there. Due to git size limitation, all data files were ignored from this repo. I took this project to do my own work without following the instructions of the Kaggle Competition. I just wanted to define my own models and see if I can predict based on the theory of multicolinearity. 
 
+The written post about the result analysis can be found here: [Molecular Properties: A Journey through Multiple Linear Regression](https://towardsdatascience.com/molecular-properties-a-journey-through-multiple-linear-regression-1a1043c7de25). 
 
 Finished basic EDA and found out which features are important at the [SNS and LGB file](https://github.com/imamun93/Molecular_Properties/blob/master/SNS%20and%20LGB%20EDA.ipynb). Thorugh EDA and lgbm modelling, I leanred that fc, pso, sd and dso play a more important weighted role in predicting the Scalar Constant.
 
